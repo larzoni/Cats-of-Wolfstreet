@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Trivia</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <div class="question-container">
+        <div class="question">
+          <div class="dog-img-container">
+            <img class="dog-img" src="dog-frame.png" alt="boss-dog" />
+          </div>
+          <div class="question-description">
+            <h2 id="question">I'm a question.</h2>
+          </div>
+        </div>
+        <div class="input-boxes">
+          <button class="buttons">input1</button>
+          <button class="buttons">input2</button>
+          <button class="buttons">input3</button>
+          <button class="buttons">input3</button>
+        </div>
+      </div>
+      <div class="cat-img-container">
+        <img src="maincat-inactive.png" class="cat" />
+        <p id="cat-chatbox" class="cat-chatbox"></p>
+      </div>
+    </section>
+    <script src="https://www.gstatic.com/firebasejs/9.13.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore-compat.js"></script>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
